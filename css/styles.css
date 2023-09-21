@@ -12,24 +12,161 @@ a {
   color: inherit;
 }
 
+address {
+  font-style: normal;
+}
 /* Header */
 .logo {
   font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 
 .logo-decoration {
   color: #4d5ae5;
 }
 
-.logo.footer {
-  color: #f4f4fd;
-}
-
 .navigation-links {
   color: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .navigation-links:hover,
 .navigation-links:focus {
   color: #404bbf;
+}
+
+.adress {
+}
+.adress-list {
+}
+.adress-links {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.adress-links:hover,
+.adress-links:focus {
+  color: #404bbf;
+}
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* Advantages */
+.advantages {
+}
+.hidden-title {
+  text-indent: -9999px;
+}
+.advantages-list {
+}
+.advantagws-item {
+}
+.advantages-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Team */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+
+.portfolio {
+}
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo.footer-link {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
