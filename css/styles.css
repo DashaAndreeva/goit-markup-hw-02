@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -20,12 +21,14 @@ address {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.logo-decoration {
-  color: #4d5ae5;
+header .logo-decoration {
+  color: #2e2f42;
 }
 
 .navigation-links {
@@ -46,7 +49,6 @@ address {
 .adress-list {
 }
 .adress-links {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -68,6 +70,7 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-btn {
   font-size: 16px;
@@ -87,15 +90,22 @@ address {
 /* Advantages */
 .advantages {
 }
-.hidden-title {
-  text-indent: -9999px;
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+
+.advantages-title {
+  color: #2e2f42;
+}
+
 .advantages-list {
 }
 .advantagws-item {
 }
 .advantages-text {
-  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -106,23 +116,27 @@ address {
   background-color: #f4f4fd;
 }
 .team-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-text {
-  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -133,23 +147,26 @@ address {
 .portfolio {
 }
 .portfolio-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
 .portfolio-item {
 }
 .portfolio-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .portfolio-text {
-  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -160,7 +177,7 @@ address {
   background-color: #2e2f42;
 }
 
-.logo.footer-link {
+.footer .logo-decoration {
   color: #f4f4fd;
 }
 
